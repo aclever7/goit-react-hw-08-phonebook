@@ -7,7 +7,7 @@ import { Home } from './Home/Home';
 import { Register } from './Register/Register';
 import { Login } from './Login/Login';
 import { useDispatch } from 'react-redux';
-import { fetchCurrentUser } from '../redux/auth/authOperation';
+import { fetchCurrentUser } from '../redux/auth/authOperations';
 import PrivateRoute from './Route/PrivateRoute';
 import { PublicRoute } from './Route/PublicRoute';
 

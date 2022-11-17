@@ -1,7 +1,7 @@
 import s from './Register.module.css';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { register } from 'redux/auth/authOperation';
+import { register } from 'redux/auth/authOperations';
 import { Link } from 'react-router-dom';
 import { ModalWindow } from '../Modal/Modal';
 

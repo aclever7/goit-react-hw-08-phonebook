@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { logOut } from '../../../redux/auth/authOperation';
+import { logOut } from '../../../redux/auth/authOperations';
 import authSelector from '../../../redux/auth/authSelector';
 import s from './UserMenu.module.css';
 

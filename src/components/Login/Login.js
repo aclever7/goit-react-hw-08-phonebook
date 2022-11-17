@@ -1,7 +1,7 @@
 import s from './Login.module.css';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { login } from 'redux/auth/authOperation';
+import { login } from 'redux/auth/authOperations';
 import { Link } from 'react-router-dom';
 import { ModalWindow } from '../Modal/Modal';
 
